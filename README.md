@@ -70,8 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-Melhoria do spy browser e baby watson
-
+ spy browser e baby watson upgrade para REACT
 1- Va na api do Replit fornecida pelo gestor (A,A) e inicie a api apertando em "start"
 
 clonar o repositorio e digitar o comando "npm start"
