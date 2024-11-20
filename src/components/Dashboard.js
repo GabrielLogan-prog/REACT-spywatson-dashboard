@@ -1,3 +1,10 @@
+/**
+ * Componente que renderiza o Dashboard.
+ *
+ * @function
+ * @returns {React.ReactElement} - O componente renderizado.
+ */
+
 import React from 'react';
 
 function Dashboard() {

@@ -1,3 +1,15 @@
+/**
+ * Componente que verifica se o usuario esta logado em alguma rede social
+ * @param {Object} props - Props do componente
+ * @param {string} [props.platform] - Plataforma a ser verificada
+ * @param {string} [props.domain] - Dominio da plataforma
+ * @param {string} [props.redirect] - URL para redirecionar em caso de login
+ * @param {string} [props.name] - Nome da plataforma
+ * @returns {React.ReactElement} - Elemento React
+ * @example
+ * <SocialMediaChecker platform="Gmail" domain="https://accounts.google.com" redirect="/ServiceLogin?passive=true&continue=https%3A%2F%2Fwww.google.com%2Ffavicon.ico&uilel=3&hl=en&service=mail" name="Gmail" />
+ */
+
 import React, { useState } from 'react';
 
 const platforms = [
@@ -14,10 +26,38 @@ const platforms = [
   // Adicione mais plataformas aqui...
 ];
 
+
+/**
+ * Componente que verifica se o usuario esta logado em alguma rede social
+ * @function
+ * @returns {React.ReactElement} - Elemento React
+ * @example
+ * <SocialMediaChecker />
+ */
+
 function SocialMediaChecker() {
   const [loggedInPlatforms, setLoggedInPlatforms] = useState([]);
   const [isChecking, setIsChecking] = useState(false);
 
+  /**
+   * Estado que armazena as plataformas em que o usuario esta logado
+   * @type {Object[]}
+   */
+  /**
+   * Estado que indica se a verificacao esta em andamento
+   * @type {boolean}
+   */
+  /**
+   * Funcao que verifica se o usuario esta logado em alguma plataforma
+   * @function
+   * @param {Object} platform - Plataforma a ser verificada
+   * @returns {Promise<boolean>} - Promessa que resolve com verdadeiro se o usuario esta logado na plataforma
+   */
+  /**
+   * Funcao que testa todas as plataformas
+   * @function
+   * @returns {Promise<*>} - Promessa que resolve com o resultado da verificacao
+   */
   const checkLogin = async (platform) => {
     return new Promise((resolve) => {
       const img = new Image();
@@ -27,6 +67,14 @@ function SocialMediaChecker() {
     });
   };
 
+  /**
+   * Verifica se o usuario esta logado em todas as plataformas
+   * @function
+   * @returns {Promise<*>} - Promessa que resolve com o resultado da verificacao
+   * @example
+   * const result = await testSocialMedia();
+   * console.log(result); // ["Gmail", "Youtube"]
+   */
   const testSocialMedia = async () => {
     setIsChecking(true);
     const loggedIn = [];

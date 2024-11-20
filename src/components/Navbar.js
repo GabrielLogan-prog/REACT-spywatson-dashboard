@@ -1,3 +1,13 @@
+/**
+ * Componente de navega o da aplica o.
+ * @memberof module:src/components
+ * @param {function} navigateTo - Funcao para navegacao entre as paginas.
+ * @prop {string} navigateTo.dashboard - Navegar ate  pagina de dashboard.
+ * @prop {string} navigateTo.consultas - Navegar ate  pagina de consultas.
+ * @example
+ * <Navbar navigateTo={(page) => history.push(page)} />
+ */
+
 import React from 'react';
 
 function Navbar({ navigateTo }) {
