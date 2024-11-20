@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Melhoria do spy browser e baby watson
+
+1- Va na api do Replit fornecida pelo gestor (A,A) e inicie a api apertando em "start"
+
+clonar o repositorio e digitar o comando "npm start"
+
+Voce ira obter um erro ao consultar , pois é necessario liberar temporariamente o acesso pelo proxy da heroku.
+
+abr o navegador e acesse a url: https://cors-anywhere.herokuapp.com/https://c9df0f37-f69f-4b6d-8158-2958f9b5b884-00-1wdt1mzj7jyv1.worf.replit.dev/api/company
+
+iRA APARECER UMA TELA COM UM BOTÃO PARA AUTORIZAR TEMPORARIAMENTE O PROXY , CLIQUE NELE PARA O TESTE POR GENTILEZA.
+
+Apos isto , o erro de CORS é eliminado , e sua consulta ira ocorrer normalmente:
+
