@@ -14,9 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-
-**
- spy browser e baby watson upgrade para REACT**
+ `spy browser e baby watson upgrade para REACT`
 1- Va na api do Replit fornecida pelo gestor (A,A) e inicie a api apertando em "start"
 
 clonar o repositorio e digitar o comando "npm start"
